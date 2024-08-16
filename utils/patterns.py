@@ -79,10 +79,49 @@ def clothes():
             print("Please enter a valid choice from the menu.")
 
 def headwears():
-    pass
+    while True:
+        try:
+            print("<----------------------------------->")
+            print("|             Headwears             |")
+            print("<----------------------------------->")
+            print("| [1]                               |")
+            print("| [2]                               |")
+            print("| [3]                               |")
+            print("<----------------------------------->")
+            print("| [4] Return to search menu         |")
+            print("<----------------------------------->")
+
+        except ValueError:
+            print("Please enter a valid choice from the menu.")
 
 def bags():
-    pass
+    while True:
+        try:
+            print("<----------------------------------->")
+            print("|                Bags               |")
+            print("<----------------------------------->")
+            print("| [1]                               |")
+            print("| [2]                               |")
+            print("| [3]                               |")
+            print("<----------------------------------->")
+            print("| [4] Return to search menu         |")
+            print("<----------------------------------->")
+
+        except ValueError:
+            print("Please enter a valid choice from the menu.")
 
 def amigurumis():
-    pass
+    while True:
+        try:
+            print("<----------------------------------->")
+            print("|            Amigurumis             |")
+            print("<----------------------------------->")
+            print("| [1]                               |")
+            print("| [2]                               |")
+            print("| [3]                               |")
+            print("<----------------------------------->")
+            print("| [4] Return to search menu         |")
+            print("<----------------------------------->")
+
+        except ValueError:
+            print("Please enter a valid choice from the menu.")
